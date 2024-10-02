@@ -50,38 +50,38 @@ While headless CMS tools provide a lot of benefits, it's important to carefully 
 
 This table of features is built based on the team members experience with different headless CMS tools and information found online. The features listed are some of the key aspects that set the different tools apart from each other.
 
-| Headless CMS                        | Contentful           | Dato               | Sanity\*             | Kontent.ai\*         | Magnolia\*           | Agility CMS\*        | Butter CMS\*         | Contentstack\*       | Bloomreach\*         | Netlify\*            | Strapi\*             |
-| ----------------------------------- | -------------------- | ------------------ | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- |
-| Singleton Types Support             | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| SEO Support                         | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Page-Driven Content/Schema Modeling | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Content-Type Templating             | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Development Process and Workflows   | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Content Federation                  | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Simple Permissions                  | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Advanced Permissions (Model level)  | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Batch Content Validation            | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Deploy API                          | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Preview API                         | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Supports Websocket                  | :white_large_square:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Global Content Types and Entries    | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Image API                           | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Scalability and Performance         | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Integrating with APIs or Services   | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Support/Resources Available         | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Native App Support                  | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Data Migration (Export/Import)      | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| SaaS Model                          | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: |
-| API-driven                          | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   |
-| Real-time collaboration             | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Supports multiple channels          | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: |
-| Supports multiple devices           | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Flexible tech stack                 | :white_large_square: | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   |
-| Easy to use                         | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   |
-| Supports WYSIWYG                    | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: |
-| Supports frontend frameworks        | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: |
-| Usage Limits                        | High                 | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
-| Write Rate Limits                   | High                 | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Headless CMS                        | Contentful           | Dato               | HyGraph             | Sanity\*             | Kontent.ai\*         | Magnolia\*           | Agility CMS\*        | Butter CMS\*         | Contentstack\*       | Bloomreach\*         | Netlify\*            | Strapi\*             |
+| ----------------------------------- | -------------------- | ------------------ | ------------------  | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- | -------------------- |
+| Singleton Types Support             | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| SEO Support                         | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Page-Driven Content/Schema Modeling | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Content-Type Templating             | :white_large_square: | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Development Process and Workflows   | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Content Federation                  | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Simple Permissions                  | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Advanced Permissions (Model level)  | :white_large_square: | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Batch Content Validation            | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Deploy API                          | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Preview API                         | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Supports Websocket                  | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Global Content Types and Entries    | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Image API                           | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Scalability and Performance         | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Integrating with APIs or Services   | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Support/Resources Available         | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Native App Support                  | :white_large_square: | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Data Migration (Export/Import)      | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| SaaS Model                          | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: |
+| API-driven                          | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   |
+| Real-time collaboration             | :white_large_square: | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Supports multiple channels          | :heavy_check_mark:   | :heavy_check_mark: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: |
+| Supports multiple devices           | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Flexible tech stack                 | :white_large_square: | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   |
+| Easy to use                         | :white_large_square: | :heavy_check_mark: | :heavy_check_mark:   | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :heavy_check_mark:   | :heavy_check_mark:   |
+| Supports WYSIWYG                    | :white_large_square: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: |
+| Supports frontend frameworks        | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :heavy_check_mark:   | :white_large_square: |
+| Usage Limits                        | High                 | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
+| Write Rate Limits                   | High                 | :heavy_check_mark: | :heavy_check_mark: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: | :white_large_square: |
 
 Note: This table is not exhaustive and only covers some of the key features that the team members have encountered while working with the different headless CMS tools. Other factors such as migration between environments, data modeling for native apps, and management of content for non-developers should also be considered when choosing a headless CMS tool.
 
@@ -93,12 +93,14 @@ Note 2: The tools that are marked with a `*` are still a work in progress.
 | ------------ | ----------------------------------- |
 | Contentful   | Depends on content modeling         |
 | Dato         | Ideal for web-based projects        |
+| HyGraph      | Ideal for web-based projects        |
 | Sanity       | Ideal for web-based projects        |
 
 | Headless CMS | Opinion and Recommendations for Specific Use Cases                                |
 | ------------ | --------------------------------------------------------------------------------- |
 | Contentful   | Ideal for production-ready projects with a big client budget and management needs |
 | Dato         | Ideal for projects with a dev and team preference                                 |
+| HyGraph      | Ideal for projects with a dev and team preference                                 |
 | Sanity       | Ideal for projects with a dev and team preference                                 |
 
 | Headless CMS | Cloud Infrastracture                               |
@@ -111,7 +113,7 @@ The team members have worked with several headless CMS tools, including Contentf
 
 Contentful is recommended for any project with a significant client, where the CMS plays a significant role. This platform is widely recognized and respected by both enterprise clients and start-up companies.
 
-For projects that allow for experimentation and the CMS is not a central component, it would be appropriate to consider using Sanity/Dato.
+For projects that allow for experimentation and the CMS is not a central component, it would be appropriate to consider using Sanity/Dato/HyGraph.
 
 It is important to factor in the budget for the CMS solution. Although the free tier can accommodate a range of use cases, the cost of the enterprise version can become prohibitive in certain scenarios, particularly if enterprise features are required.
 
@@ -128,6 +130,10 @@ Dato CMS allows you to create singleton types just like any other content type, 
 ### Contentful
 
 Contentful does not allow you to create singleton Content Types, implementing a single content for a Content Type is possible but the number of items has to be handled manually.
+
+### HyGraph
+
+HyGraph does not yet allow you to create singleton Content Types, implementing a single content for a Content Type is possible but the number of items has to be handled manually. It is on their radar as can be seen [here](https://hygraph.nolt.io/25) 
 
 ## SEO Support
 
@@ -147,6 +153,21 @@ Overall, Dato CMS provides a variety of SEO features that can help you optimize 
 
 Contentful only allows you to store SEO related content in Content Types, the implementation like meta tags, site maps, others have to be build in the frontend from scratch. More details on: [The Contentful SEO Guide](https://www.contentful.com/seo-guide/)
 
+### HyGraph
+
+HyGraph has SEO support. They offer a SEO Schema model that has all the required fields for SEO:
+
+- Meta Title
+- Meta Description
+- Focus Keywords
+- OG Image
+- No Index
+- Page
+- Post
+
+And the possibility to add _noindex and _nofollow attributes
+
+
 ## Page-Driven Content and Schema Modeling
 
 Page-driven content modeling is a method of organizing content around the pages of a website, rather than around individual content types.
@@ -165,6 +186,10 @@ In summary, Dato CMS provides robust support for page-driven content/schema mode
 
 The Content Type is the main block for building the content structure, it includes fields, data types, validations and relationships with other Content Types. Custom data shapes and React components can be used to customize fields look and behavior for the most advanced use cases.
 
+### HyGraph
+
+HyGraph is very similar to Dato in the way page models are defined and structured. Everything that is true for Dato is also true for HyGraph.
+
 ## Content-Type Templating
 
 Content-type templating is a way of defining a standard layout and design for a particular content type, which can be applied to all instances of that content type.
@@ -182,6 +207,10 @@ Content-type templates in Dato CMS are highly customizable, and you can create t
 ### Contentful
 
 As a headless CMS, Contentful only provides the structured information using the API, the look and feel of the content has to be developed on the frontend side.
+
+### HyGraph
+
+HyGraph uses what they call "Components" to define a modular content type structure. Components are reusable, can contain fields or they can be nested. This is similar to what Dato offers as far as I've seen.
 
 ## Development Process and Workflows
 
@@ -205,6 +234,21 @@ Contentful provides a robust development process and workflow features to help t
 - Versioning and history: Contentful tracks changes to content, allowing teams to view previous versions and revert to earlier versions if needed.
 - API access: Contentful provides API access using the Content Management API, allowing teams to integrate content management into their existing development workflow.
 
+### HyGraph
+
+HyGraph offers a pretty robust process and workflows for collaboration and content management. 
+
+- Staging environments: HyGraph provides staging environments that allow teams to test and preview changes before pushing them live. This ensures that changes are thoroughly tested and approved before they are made public.
+- Roles and permissions: HyGraphallows teams to set up roles and permissions, ensuring that team members have the appropriate level of access to content and features. This makes it easy to manage workflows and ensure that content is reviewed and approved by the appropriate team members.
+- API access: HyGraph provides API access, allowing teams to integrate content management into their existing development workflow. This makes it easy to use HyGraph alongside other development tools and services.
+
+## Programmatic content Managemement
+
+### HyGraph
+
+I'm not sure if this can be done with Dato, but on the GraphQL level you can actually use the GraphQL API both for content management and Mutations. 
+
+
 ## Content Federation
 
 Content federation is a way of managing content across multiple systems and platforms, allowing teams to create, manage, and publish content from a centralized location.
@@ -222,6 +266,10 @@ Content federation helps teams manage content more efficiently and effectively a
 ### Contentful
 
 Developers can use the Content Delivery API, Content Preview API and Content Management API to consume and manage the content from any backend, script or frontend application, there is also the Contentful CLI tool to manage content from the console.
+
+### HyGraph
+
+HyGraph has content federation through their api. Their integration capabilities are thorough and other APIs and data sources can be integrated seamlessly.
 
 ## Simple Permissions
 
@@ -241,6 +289,11 @@ In addition to roles and permissions, Dato CMS also provides features such as ac
 
 Overall, Dato CMS provides simple and effective permissions management features, allowing teams to control access to content and features and ensure that content is managed in a safe and secure manner.
 
+
+### HyGraph
+
+HyGraph provides simple permissions management features.
+
 ## Advanced Permissions at the Model level
 
 You can define custom permissions for each individual content model, allowing you to control access to specific content types or fields.
@@ -258,6 +311,10 @@ You can define custom permissions at the field level, ensuring that only authori
 In addition to field-level permissions, Dato CMS also provides advanced permissions management features such as workflow approvals, content approvals, and role-based access control.
 
 Dato CMS provides advanced permissions management features at the model level, allowing teams to control access to specific content types or fields and ensure that content is managed securely and effectively. These features make it easy to manage complex workflows and ensure that content is consistently high-quality and meets the needs of the audience.
+
+### HyGraph
+
+HyGraph provides advanced permissions management features at most levels.
 
 ## Batch Content Validation
 
@@ -307,6 +364,11 @@ The Preview API in Dato CMS can help teams review and test changes before they a
 ### Contentful
 
 Contentful offers the Content Preview API where you can preview the changes in the content that is not pushished yet, proven to be useful when content managers want to preview content using custom frontend solutions. 
+
+
+### HyGraph
+
+HyGraph allows users to use the equivalent of the Preview API where you can preview the changes in the content that is not pushished yet by creating an API Key that can read the "Draft" status. 
 
 ## Supports Websocket
 
@@ -360,6 +422,10 @@ Contentful can work as an assets repository and CDN, and those assets can be con
 
 This API allows you to resize, crop, change format, reduce quality plus other features, proven to be useful getting images and optimizing them for the Web and serving them directly from Contentful without any other CDN needed.
 
+### HyGraph
+
+HyGraph has image APIs that allow you to resize images and other things on the fly from within the GraphQL Query.
+
 ## Scalability and Performance
 
 ### Dato CMS
@@ -374,6 +440,10 @@ Dato CMS is designed to provide scalability and performance for websites and app
 
 Dato CMS is designed to provide scalability and performance for websites and applications of all sizes. Its cloud-based hosting, API-first architecture, CDN integration, image optimization, and serverless architecture all contribute to a fast, reliable, and scalable content management system.
 
+### HyGraph
+
+HyGraph is scalable and has many different CDNs. Scalability and redundancy are based on different pricing tiers.
+
 ## Integrating with APIs or Services
 
 ### Dato CMS
@@ -387,6 +457,10 @@ Dato CMS provides a variety of features and tools that allow you to integrate wi
 - Custom extensions: Dato CMS provides a variety of tools and features for building custom extensions, such as field types, plugins, and widgets. This makes it easy to extend the functionality of Dato CMS and integrate with other systems or services.
 
 Dato CMS provides a variety of features and tools that make it easy to integrate with APIs or services. Its API-first architecture, webhook integrations, Zapier integration, content federation, and custom extensions all contribute to a powerful and flexible content management system that can be easily integrated with other parts of your infrastructure.
+
+### HyGraph
+
+HyGraph can connect to third party APIs as well as use WebHooks. The documentation is not very rich and I suspect this is still a young feature.
 
 ## Support/Resources Available
 
@@ -466,6 +540,10 @@ The Dato CMS SaaS model provides several benefits:
 ### Contentful
 
 Contentful provides a SaaS (Software-as-a-Service) model, which means that it is hosted in the cloud and provides a subscription-based pricing model.
+
+### HyGraph
+
+HyGraph also provides a SaaS (Software-as-a-Service) model, it's hosted in the cloud and provides a subscription-based pricing model. It also offers a free tier.
 
 ## Real-time collaboration
 
@@ -559,6 +637,10 @@ Here are some key features that make Dato CMS easy to use:
 
 Dato CMS's user-friendly interface, drag-and-drop functionality, customizable content models, collaboration features, and seamless deployment make it easy to create, manage, and publish high-quality content that engages your audience and helps you achieve your goals.
 
+### HyGraph
+
+HyGraph is extremely simple to use. If you have any experience with Dato CMS it will feel very familiar. They have an abundance of youtube videos to explain concepts, which, in my opinion, is a big strength.
+
 ## Supports WYSIWYG
 
 ### Dato CMS
@@ -620,6 +702,11 @@ Dato CMS has usage limits, which are determined by your subscription plan.
 
 Contentful has environments limit, read rate and complexity limits, those can be lifted based on the project requirements contacting the Contentful support team.
 
+### HyGraph
+
+HyGraph CMS has usage limits for the free tier (1 million api calls/100GB asset traffic) and paid plans with no limits.
+
+
 ## Write Rate Limits
 
 Write rate limits restrict the number of write operations that can be performed on the platform within a certain time frame.
@@ -641,3 +728,7 @@ Dato CMS has write rate limits, which are designed to ensure the stability and r
 ### Contentful
 
 Contentful has write rate and complexity limits, those can be lifted based on the project requirements contacting the Contentful support team.
+
+### HyGraph
+
+HyGraph CMS has usage limits for the free tier (1 million api calls/100GB asset traffic) and paid plans with no limits.
